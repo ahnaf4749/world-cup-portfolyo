@@ -1,0 +1,45 @@
+/* ----------
+font style 
+----------- */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* ----------
+all css rules 
+-------------*/
+body{
+    font-family: 'Lobster', cursive;
+    margin-left: 100px;
+}
+/*------------------
+ first conteant css
+------------------- */
+.players{
+    display: flex;
+    border: 1px solid black;
+    width: 1300px;
+    height: 550px;
+    padding: 50px;
+    background-color: black;
+    border-radius: 15px
+}
+.player{
+   font-size: 30px;
+   color: white;
+}
+.player img{
+    width: 550px;
+    height: 600px;
+}
+#conteant{
+    font-size: 20px;
+}
+.player-info a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+}
+.player-info{
+    background-color: red;
+    width: 150px;
+    border-radius: 5px;
+}
