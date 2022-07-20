@@ -46,7 +46,9 @@ body{
     border-radius: 5px;
     text-align: center;
 }
-/* second conteant style  */
+/*----------------------
+ second conteant style 
+ ----------------- */
 .login{
     margin-top: 100px;
 }
@@ -86,7 +88,9 @@ body{
     background-color:red;
     text-align: center;
 }
-/* player part style  */
+/*-------------------
+ player part style  
+--------------------*/
 .stive{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -120,7 +124,9 @@ body{
     margin-left: 20px;
 
 }
-/* last part fotter style  */
+/* ----------------------
+last part fotter style 
+---------------------- */
 footer{
     height: 250px;
     text-align: center;
@@ -148,7 +154,9 @@ hr{
     font-size: 20px;
     color: rgb(241, 241, 201);
 }
-/* hide part style  */
+/*---------------- 
+hide part style
+----------------------------  */
 .gain{
     color: white;
     font-weight: 600;
@@ -162,8 +170,13 @@ hr{
     background-color: red;
     border-radius: 5px;
 }
-   /* @media quires  */
-   /* mobile @media quires */
+   /* ----------------
+   @media quires responcive degine
+   -------------------- */
+
+   /*------------------------
+    mobile @media quires------
+    ---------------------- */
    @media only screen and (max-width:688px) {
     body{
         margin-left: 0px;
@@ -208,7 +221,9 @@ hr{
         text-align: center;
     }
     }
-    /* tablet  responcive */
+    /*---------------
+     tablet  responcive 
+     -----------------*/
     @media  only screen and (min-width: 689px) and (max-width: 992px){
         body{
            width: 100%;
