@@ -148,6 +148,20 @@ hr{
     font-size: 20px;
     color: rgb(241, 241, 201);
 }
+/* hide part style  */
+.gain{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    display: none;
+}
+.hideless{
+    border: 1px solid red;
+    height: 50px;
+    width: 140px;
+    background-color: red;
+    border-radius: 5px;
+}
    /* @media quires  */
    /* mobile @media quires */
    @media only screen and (max-width:688px) {
@@ -172,6 +186,9 @@ hr{
         width: 235px;
         margin-right: 10px;
     }
+    .player{
+        margin-left: 20px;
+    }
     .login{
         margin-top: 50px;
     }
@@ -186,9 +203,9 @@ hr{
     }
     footer{
         height: 400px;
-        width: 350px;
+        width: 370px;
         border-radius: 10px;
-        
+        text-align: center;
     }
     }
     /* tablet  responcive */
@@ -221,5 +238,12 @@ hr{
             margin-top: 200px;
             margin-left: px;
         }
-        .course{}
+        .gain{
+            display: block;
+            margin-left: 600px;
+            padding-top: 30px;
+        }
+        footer{
+        width: 1350px;
+        }
         }
