@@ -152,7 +152,8 @@ hr{
    /* mobile @media quires */
    @media only screen and (max-width:688px) {
     body{
-        margin: 0, 0;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .players{
         flex-direction: column;
@@ -192,22 +193,33 @@ hr{
     }
     /* tablet  responcive */
     @media  only screen and (min-width: 689px) and (max-width: 992px){
+        body{
+           width: 100%;
+           margin-left: 0px;
+        }
+        .login{
+            margin-left: 400px;
+            margin-top: -2px;
+        }
         .boxes{
             display: flex;
-            justify-content: space-between;
-            border: 1px solid black;
-            border: none;
-            background-color: white;
+            height: 0px;
+            width: 0px;
         }
         .box{
-            height: 40px;
-            width: 300px;
-        }
-        .courses, footer{
-            display: none;
+            height: 50px;
+            width: 500px;
+            padding: 20px;
         }
         #blog{
-            height: 40px;
-            width: 60px;
+            height: 50px;
+            width: 500px;
+            padding: 20px;
         }
-    }
+        .stive{
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 200px;
+            margin-left: px;
+        }
+        .course{}
+        }

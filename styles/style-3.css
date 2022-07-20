@@ -86,7 +86,7 @@ body{
     background-color:red;
     text-align: center;
 }
-/* player part style  */
+/* match time part style  */
 .stive{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
